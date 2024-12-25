@@ -23,3 +23,7 @@ docs/venv
 # development
 .vscode
 **/.DS_Store
+
+# nix
+result
+.direnv/
