@@ -106,6 +106,7 @@ def main():
         device = torch.device("mps")
     else:
         device = torch.device("cpu")
+    print(f"Using device: {device}")
 
     train_kwargs = {'batch_size': args.batch_size}
     test_kwargs = {'batch_size': args.test_batch_size}
